@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import discord
 import os
 import nest_asyncio
@@ -61,22 +55,3 @@ async def leave(ctx):
         await ctx.send("I am not in a voice channel")
 
 bot.run(TOKEN)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
