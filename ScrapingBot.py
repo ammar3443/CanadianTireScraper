@@ -15,7 +15,7 @@ from selenium.webdriver.firefox.options import Options
 import time
 nest_asyncio.apply()
 
-TOKEN = 'MTExOTExOTY3MDM4MTkyNDM4Mw.G_WzVw.qUMn_Ygwv6VvZaxRdiXYdbLmzFXQrvQeNwOGwE'
+TOKEN = 'Put Bot Token Here'
 CHANNEL_ID = 1119122000305193054
 chat = 'General'
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
