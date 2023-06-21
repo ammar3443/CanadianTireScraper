@@ -13,15 +13,12 @@ TOKEN = 'Put Bot Token Here'
 CHANNEL_ID = 1119122000305193054
 chat = 'General'
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+
 @bot.event
 async def on_ready():
     channel = bot.get_channel(CHANNEL_ID)
     print('We have logged in as {0.user}'.format(bot))
-
-@bot.command()
-async def hello(ctx):
-        await ctx.send('Hello!')
-
+    
 @bot.command()
 async def ct(ctx, *args):
     arguments = ' '.join(args)
